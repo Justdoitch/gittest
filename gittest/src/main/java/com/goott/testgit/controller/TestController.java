@@ -15,4 +15,9 @@ public class TestController {
 	public String testJieun2() {
 		return "test";
 	}
+
+	@RequestMapping("/test3")
+	public String testJieun3() {
+		return "test";
+	}
 }
