@@ -25,10 +25,34 @@ public class TestController {
 	@RequestMapping("/test4")
 	public String testyujung() {
 		return "test";
+		
+	}
+	
+	
+	// 임지혁2124
+	@RequestMapping("/test4")
+	public String testIJH() {
+		return "test";
+		
 	}
 	
 	@RequestMapping("/test5")
 	public String testyujung1() {
+		return "test";
+	}
+
+	@RequestMapping("/test5")
+	public String testyujunggggg() {
+		return "test";
+	}
+	
+	@RequestMapping("/test5")
+	public String testyujungdddgggg() {
+		return "test";
+	}
+	
+	@RequestMapping("/test5")
+	public String testyujungdddddgggg() {
 		return "test";
 	}
 
