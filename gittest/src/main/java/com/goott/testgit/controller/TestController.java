@@ -29,10 +29,15 @@ public class TestController {
 	}
 	
 	
-	// 임지혁
+	// 임지혁2124
 	@RequestMapping("/test4")
 	public String testIJH() {
 		return "test";
 		
+	}
+	
+	@RequestMapping("/test5")
+	public String testyujung2() {
+		return "test";
 	}
 }
