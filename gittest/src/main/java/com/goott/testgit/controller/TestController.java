@@ -36,5 +36,10 @@ public class TestController {
 	public String testyujunggggg() {
 		return "test";
 	}
+	
+	@RequestMapping("/test5")
+	public String testyujungdddgggg() {
+		return "test";
+	}
 
 }
