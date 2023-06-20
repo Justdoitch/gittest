@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
-public class KimTest {
+public class KimTest { // 입력
     @RequestMapping(value="get", method=RequestMethod.GET)
     public String kimTestMethod(@RequestParam String param) {
         return "test";
