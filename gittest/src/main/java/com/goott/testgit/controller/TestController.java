@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 
-//	git test11
+//	git test15
 	@RequestMapping("/test")
 	public String testJieun() {
 		return "test";
