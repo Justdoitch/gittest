@@ -60,4 +60,8 @@ public class TestController {
 	public String testyujungdddddgggdg() {
 		return "test";
 	}
+	@RequestMapping("/test6")
+	public String testy6() {
+		return "test";
+	}
 }
