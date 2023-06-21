@@ -55,5 +55,25 @@ public class TestController {
 	public String testyujungdddddgggg() {
 		return "test";
 	}
-
+//
+	@RequestMapping("/test6")
+	public String testyujungdddddgggdg() {
+		return "test";
+	}
+	@RequestMapping("/test6")
+	public String testy6() {
+		return "test";
+	}
+	
+	// 김가현 test
+	@RequestMapping("/test7")
+	public String testgahyeon() {
+		return "test";
+	}
+	
+	// 김가현 test
+	@RequestMapping("/test8")
+	public String testgahyeon2() {
+		return "test";
+	}
 }
