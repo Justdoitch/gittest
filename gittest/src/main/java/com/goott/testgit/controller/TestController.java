@@ -70,4 +70,10 @@ public class TestController {
 	public String testgahyeon() {
 		return "test";
 	}
+	
+	// 김가현 test
+	@RequestMapping("/test8")
+	public String testgahyeon2() {
+		return "test";
+	}
 }
