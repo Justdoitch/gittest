@@ -76,4 +76,9 @@ public class TestController {
 	public String testgahyeon2() {
 		return "test";
 	}
+	// 이창훈 test
+	@RequestMapping("/test")
+	public String lee() {
+		return "test";
+	}
 }
