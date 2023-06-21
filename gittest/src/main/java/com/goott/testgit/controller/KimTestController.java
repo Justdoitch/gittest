@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class KimTestController {
     
+    //test branch 이건 feature에서 생산된 주석
     @RequestMapping(value="/test/kim", method=RequestMethod.GET)
     public String requestMethodName(@RequestParam String param) {
         return "/test/kim";
     }
     //test branch
-
 }
