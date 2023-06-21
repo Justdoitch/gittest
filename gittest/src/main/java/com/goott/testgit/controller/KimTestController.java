@@ -13,6 +13,6 @@ public class KimTestController {
     public String requestMethodName(@RequestParam String param) {
         return "/test/kim";
     }
-    
+    //test branch
 
 }
